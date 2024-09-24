@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BD80F2C5-26F6-48A4-8271-3695E7DB684A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06B7C82E-2042-4036-986B-7805A8C1DB2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView/FilmsAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getFivePopularFilmsImages(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51B91260-A476-4D80-8540-257D9648DDB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView/FilmsAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "getReviews(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83C4EB4B-EA39-4332-B1A9-93C9B7B36168"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView/FilmsAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "getReviews(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83C4EB4B-EA39-4332-B1A9-93C9B7B36168 - f943a9ddc9ed7158"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in ScrollView.KinoPoiskAPIManager.getReviews(completion: (Swift.Array&lt;ScrollView.Review&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ScrollView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/ScrollView/ScrollView/FilmsAPIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102">
+               </Location>
+               <Location
+                  uuid = "83C4EB4B-EA39-4332-B1A9-93C9B7B36168 - 74585c26dacf3e33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in ScrollView.KinoPoiskAPIManager.getReviews(completion: (Swift.Array&lt;ScrollView.Review&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ScrollView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/ScrollView/ScrollView/FilmsAPIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E440AA77-7169-40DD-90D3-2DD4D9BD3FE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScrollView/FilmsAPIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "getReviews(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E440AA77-7169-40DD-90D3-2DD4D9BD3FE9 - 74585c26dacf3e12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in ScrollView.KinoPoiskAPIManager.getReviews(completion: (Swift.Array&lt;ScrollView.Review&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ScrollView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/ScrollView/ScrollView/FilmsAPIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+               <Location
+                  uuid = "E440AA77-7169-40DD-90D3-2DD4D9BD3FE9 - 74585c26dacf3e12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in ScrollView.KinoPoiskAPIManager.getReviews(completion: (Swift.Array&lt;ScrollView.Review&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ScrollView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/ScrollView/ScrollView/FilmsAPIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

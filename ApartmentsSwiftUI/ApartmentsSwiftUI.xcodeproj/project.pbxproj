@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D95C7B32C84B34D00494B88 /* ApartmentsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7B22C84B34D00494B88 /* ApartmentsSwiftUIApp.swift */; };
+		2D95C7B52C84B34D00494B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7B42C84B34D00494B88 /* ContentView.swift */; };
+		2D95C7B72C84B35200494B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D95C7B62C84B35200494B88 /* Assets.xcassets */; };
+		2D95C7BA2C84B35200494B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D95C7B92C84B35200494B88 /* Preview Assets.xcassets */; };
+		2D95C7CE2C85082E00494B88 /* ApartmentItemOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7CD2C85082E00494B88 /* ApartmentItemOptionView.swift */; };
+		2D95C7D02C85089600494B88 /* ApartmentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7CF2C85089600494B88 /* ApartmentItemView.swift */; };
+		2D95C7D22C850B5D00494B88 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7D12C850B5D00494B88 /* DetailView.swift */; };
+		2D95C7D42C86729900494B88 /* BottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7D32C86729900494B88 /* BottomButton.swift */; };
+		2D95C7D62C86738A00494B88 /* ApartmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7D52C86738A00494B88 /* ApartmentItem.swift */; };
+		2D95C7D82C8673A100494B88 /* ApartmentItemOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7D72C8673A100494B88 /* ApartmentItemOption.swift */; };
+		2D95C7DA2C8675D200494B88 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7D92C8675D200494B88 /* ContentViewModel.swift */; };
+		2D95C7DC2C867F3D00494B88 /* ApartmentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7DB2C867F3D00494B88 /* ApartmentImageView.swift */; };
+		2D95C7DE2C86822300494B88 /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C7DD2C86822300494B88 /* BookmarkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D95C7AF2C84B34D00494B88 /* ApartmentsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApartmentsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D95C7B22C84B34D00494B88 /* ApartmentsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsSwiftUIApp.swift; sourceTree = "<group>"; };
+		2D95C7B42C84B34D00494B88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D95C7B62C84B35200494B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D95C7B92C84B35200494B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D95C7CD2C85082E00494B88 /* ApartmentItemOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentItemOptionView.swift; sourceTree = "<group>"; };
+		2D95C7CF2C85089600494B88 /* ApartmentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentItemView.swift; sourceTree = "<group>"; };
+		2D95C7D12C850B5D00494B88 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2D95C7D32C86729900494B88 /* BottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButton.swift; sourceTree = "<group>"; };
+		2D95C7D52C86738A00494B88 /* ApartmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentItem.swift; sourceTree = "<group>"; };
+		2D95C7D72C8673A100494B88 /* ApartmentItemOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentItemOption.swift; sourceTree = "<group>"; };
+		2D95C7D92C8675D200494B88 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2D95C7DB2C867F3D00494B88 /* ApartmentImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentImageView.swift; sourceTree = "<group>"; };
+		2D95C7DD2C86822300494B88 /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D95C7AC2C84B34D00494B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D95C7A62C84B34D00494B88 = {
+			isa = PBXGroup;
+			children = (
+				2D95C7B12C84B34D00494B88 /* ApartmentsSwiftUI */,
+				2D95C7B02C84B34D00494B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D95C7B02C84B34D00494B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7AF2C84B34D00494B88 /* ApartmentsSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D95C7B12C84B34D00494B88 /* ApartmentsSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7C92C84BB6600494B88 /* DetailVIew */,
+				2D95C7C52C84BB5000494B88 /* MainVIew */,
+				2D95C7B22C84B34D00494B88 /* ApartmentsSwiftUIApp.swift */,
+				2D95C7C12C84B63E00494B88 /* Resources */,
+				2D95C7B82C84B35200494B88 /* Preview Content */,
+			);
+			path = ApartmentsSwiftUI;
+			sourceTree = "<group>";
+		};
+		2D95C7B82C84B35200494B88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7B92C84B35200494B88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D95C7C12C84B63E00494B88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7B62C84B35200494B88 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D95C7C52C84BB5000494B88 /* MainVIew */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7C82C84BB5E00494B88 /* Model */,
+				2D95C7C72C84BB5800494B88 /* ViewModel */,
+				2D95C7C62C84BB5400494B88 /* VIew */,
+			);
+			path = MainVIew;
+			sourceTree = "<group>";
+		};
+		2D95C7C62C84BB5400494B88 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7B42C84B34D00494B88 /* ContentView.swift */,
+				2D95C7CD2C85082E00494B88 /* ApartmentItemOptionView.swift */,
+				2D95C7CF2C85089600494B88 /* ApartmentItemView.swift */,
+				2D95C7DD2C86822300494B88 /* BookmarkView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		2D95C7C72C84BB5800494B88 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7D92C8675D200494B88 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D95C7C82C84BB5E00494B88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7D52C86738A00494B88 /* ApartmentItem.swift */,
+				2D95C7D72C8673A100494B88 /* ApartmentItemOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D95C7C92C84BB6600494B88 /* DetailVIew */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7CC2C84BB7400494B88 /* Model */,
+				2D95C7CB2C84BB7000494B88 /* ViewModel */,
+				2D95C7CA2C84BB6E00494B88 /* VIew */,
+			);
+			path = DetailVIew;
+			sourceTree = "<group>";
+		};
+		2D95C7CA2C84BB6E00494B88 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				2D95C7D12C850B5D00494B88 /* DetailView.swift */,
+				2D95C7D32C86729900494B88 /* BottomButton.swift */,
+				2D95C7DB2C867F3D00494B88 /* ApartmentImageView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		2D95C7CB2C84BB7000494B88 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D95C7CC2C84BB7400494B88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D95C7AE2C84B34D00494B88 /* ApartmentsSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D95C7BD2C84B35200494B88 /* Build configuration list for PBXNativeTarget "ApartmentsSwiftUI" */;
+			buildPhases = (
+				2D95C7AB2C84B34D00494B88 /* Sources */,
+				2D95C7AC2C84B34D00494B88 /* Frameworks */,
+				2D95C7AD2C84B34D00494B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApartmentsSwiftUI;
+			productName = ApartmentsSwiftUI;
+			productReference = 2D95C7AF2C84B34D00494B88 /* ApartmentsSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D95C7A72C84B34D00494B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2D95C7AE2C84B34D00494B88 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2D95C7AA2C84B34D00494B88 /* Build configuration list for PBXProject "ApartmentsSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D95C7A62C84B34D00494B88;
+			productRefGroup = 2D95C7B02C84B34D00494B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D95C7AE2C84B34D00494B88 /* ApartmentsSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D95C7AD2C84B34D00494B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D95C7BA2C84B35200494B88 /* Preview Assets.xcassets in Resources */,
+				2D95C7B72C84B35200494B88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D95C7AB2C84B34D00494B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D95C7D82C8673A100494B88 /* ApartmentItemOption.swift in Sources */,
+				2D95C7D42C86729900494B88 /* BottomButton.swift in Sources */,
+				2D95C7D02C85089600494B88 /* ApartmentItemView.swift in Sources */,
+				2D95C7DC2C867F3D00494B88 /* ApartmentImageView.swift in Sources */,
+				2D95C7B52C84B34D00494B88 /* ContentView.swift in Sources */,
+				2D95C7B32C84B34D00494B88 /* ApartmentsSwiftUIApp.swift in Sources */,
+				2D95C7DA2C8675D200494B88 /* ContentViewModel.swift in Sources */,
+				2D95C7D22C850B5D00494B88 /* DetailView.swift in Sources */,
+				2D95C7DE2C86822300494B88 /* BookmarkView.swift in Sources */,
+				2D95C7CE2C85082E00494B88 /* ApartmentItemOptionView.swift in Sources */,
+				2D95C7D62C86738A00494B88 /* ApartmentItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D95C7BB2C84B35200494B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D95C7BC2C84B35200494B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D95C7BE2C84B35200494B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApartmentsSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiganshinAzat.ApartmentsSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D95C7BF2C84B35200494B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApartmentsSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZiganshinAzat.ApartmentsSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D95C7AA2C84B34D00494B88 /* Build configuration list for PBXProject "ApartmentsSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D95C7BB2C84B35200494B88 /* Debug */,
+				2D95C7BC2C84B35200494B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D95C7BD2C84B35200494B88 /* Build configuration list for PBXNativeTarget "ApartmentsSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D95C7BE2C84B35200494B88 /* Debug */,
+				2D95C7BF2C84B35200494B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D95C7A72C84B34D00494B88 /* Project object */;
+}

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  CocoaPodsTest
+
+  Created by Азат Зиганшин on 30.08.2024.
+  
+*/
+
+"titleSettings" = "Настройки";
+"title" = "Заголовок";

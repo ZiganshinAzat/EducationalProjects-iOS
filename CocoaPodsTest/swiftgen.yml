@@ -1,0 +1,19 @@
+xcassets:
+  inputs:
+    - CocoaPodsTest/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: CocoaPodsTest/Generated/Assets.swift
+
+strings:
+  inputs:
+    - CocoaPodsTest/Resources/en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: CocoaPodsTest/Generated/ENStrings.swift
+
+  inputs:
+    - CocoaPodsTest/Resources/ru.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: CocoaPodsTest/Generated/RUStrings.swift

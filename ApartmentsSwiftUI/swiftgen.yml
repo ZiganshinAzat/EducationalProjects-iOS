@@ -1,0 +1,13 @@
+xcassets:
+  inputs:
+    - ApartmentsSwiftUI/Resources/Assets.xcassets/Images
+  outputs:
+    - templateName: swift5
+      output: ApartmentsSwiftUI/Generated/Assets.swift
+
+colors:
+  inputs:
+    - ApartmentsSwiftUI/Resources/Assets.xcassets/Colors
+  outputs:
+    - templateName: swift5
+      output: ApartmentsSwiftUI/Generated/Colors.swift

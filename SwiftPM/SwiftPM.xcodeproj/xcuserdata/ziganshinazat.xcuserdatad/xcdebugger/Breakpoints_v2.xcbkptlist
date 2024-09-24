@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC60FDEB-9A17-401B-8C80-B0095912B8EC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEC00346-2953-46F9-AE94-45307E4583F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftPM/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AEC00346-2953-46F9-AE94-45307E4583F9 - 7d277ff3fb6f6151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPM.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SwiftPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/SwiftPM/SwiftPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "776">
+               </Location>
+               <Location
+                  uuid = "AEC00346-2953-46F9-AE94-45307E4583F9 - 97798f4d95d73710"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SwiftPM.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SwiftPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/SwiftPM/SwiftPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "AEC00346-2953-46F9-AE94-45307E4583F9 - 97798f4d95d73710"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SwiftPM.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SwiftPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/SwiftPM/SwiftPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "AEC00346-2953-46F9-AE94-45307E4583F9 - 7d277ff3fb6f6151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftPM.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SwiftPM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ziganshinazat/Desktop/Swift/SwiftPM/SwiftPM/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
